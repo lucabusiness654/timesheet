@@ -5,8 +5,12 @@ use App\Http\Controllers\TimesheetController;
 use Illuminate\Support\Facades\Artisan;
 
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('zlta_ppt');
 });
 
 Route::get('/timesheet', function () {
