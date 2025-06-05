@@ -5,13 +5,13 @@ use App\Http\Controllers\TimesheetController;
 use Illuminate\Support\Facades\Artisan;
 
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', function () {
-    return view('zlta_ppt');
+    return view('welcome');
 });
+
+// Route::get('/', function () {
+//     return view('zlta_ppt');
+// });
 
 Route::get('/timesheet', function () {
     return view('timesheet.form', [
@@ -25,6 +25,7 @@ Route::get('/timesheet', function () {
     ]);
 })->name('timesheet.view');
 
+
 Route::post('/timesheet/generate', [TimesheetController::class, 'generateSummary'])->name('timesheet.generate');
 
 Route::post('/clear-cache', function () {
@@ -32,6 +33,10 @@ Route::post('/clear-cache', function () {
     return redirect()->back()->with('status', '✅ Cache cleared successfully!');
 })->name('cache.clear');
 
+
+Route::get('/rewards', function () {
+    return view('rewards');
+})->name('rewards.view');
 
 
 Route::get('/logs', [App\Http\Controllers\LogViewerController::class, 'index'])->name('logs.view');

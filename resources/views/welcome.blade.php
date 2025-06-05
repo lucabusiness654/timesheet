@@ -59,30 +59,31 @@
             </a>
         </div>
 
-        <!-- Reports Card -->
-        {{-- <div class="col-md-6 col-lg-4">
-            <a href="#" class="card card-hover h-100 text-decoration-none">
+        <!-- Rewards & Recognition Card -->
+        <div class="col-md-6 col-lg-4">
+            <a href="{{ route('rewards.view') }}" class="card card-hover h-100 text-decoration-none">
                 <div class="card-body p-4">
                     <div class="d-flex align-items-start">
-                        <div class="bg-success bg-opacity-10 p-3 rounded-3 me-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart-2 text-success">
-                                <line x1="18" y1="20" x2="18" y2="10"></line>
-                                <line x1="12" y1="20" x2="12" y2="4"></line>
-                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                        <div class="bg-warning bg-opacity-10 p-3 rounded-3 me-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award text-warning">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
                             </svg>
                         </div>
                         <div>
-                            <h3 class="h5 card-title mb-1 text-dark">Reports</h3>
-                            <p class="text-muted small mb-3">Generate detailed activity reports</p>
-                            <div class="d-flex align-items-center text-success fw-medium small">
-                                <span>View Reports</span>
+                            <h3 class="h5 card-title mb-1 text-dark">Rewards & Recognition</h3>
+                            <p class="text-muted small mb-3">View achievements and employee recognition</p>
+                            <div class="d-flex align-items-center text-warning fw-medium small">
+                                <span>View Rewards</span>
                                 <i class="fas fa-chevron-right ms-2 small transition-all"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </a>
-        </div> --}}
+        </div>
+
+       
     </div>
 
     <!-- Stats Section -->
