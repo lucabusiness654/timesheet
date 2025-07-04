@@ -83,6 +83,33 @@
             </a>
         </div>
 
+        <!-- Zoho Inventory Documentation Feature -->
+        <div class="col-md-6 col-lg-4">
+            <a href="{{ route('zoho-inventory-docs.view') }}" class="card card-hover h-100 text-decoration-none">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-start">
+                        <div class="bg-success bg-opacity-10 p-3 rounded-3 me-4">
+                            <!-- Box/Inventory SVG Icon in Green -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-box text-success">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73L13 2.27a2 2 0 0 0-2 0L4 6.27A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.73z"/>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                                <line x1="12" y1="22.08" x2="12" y2="12"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="h5 card-title mb-1 text-dark">Zoho Inventory Guide</h3>
+                            <p class="text-muted small mb-3">Understand and manage the complete inventory flow with Zoho docs.</p>
+                            <div class="d-flex align-items-center text-success fw-medium small">
+                                <span>Explore Documentation</span>
+                                <i class="fas fa-chevron-right ms-2 small transition-all"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
        
     </div>
 
